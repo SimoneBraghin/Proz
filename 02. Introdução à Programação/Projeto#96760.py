@@ -11,6 +11,7 @@ _________________
 """
 
 def calculadora(num1, num2, operacao):
+    
     if operacao == 1:
         return num1 + num2
     elif operacao == 2:

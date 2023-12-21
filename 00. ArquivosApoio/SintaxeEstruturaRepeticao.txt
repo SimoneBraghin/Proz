@@ -1,0 +1,96 @@
+
+### WHILE
+
+while condição:
+    # Bloco de código a ser executado enquanto a condição for verdadeira
+    # Pode conter várias linhas de código
+    # É importante atualizar a variável da condição para evitar loops infinitos
+
+## Explicação dos elementos:
+
+    while: É a palavra-chave utilizada para iniciar a estrutura de repetição.
+    condição: É a expressão booleana que determina se o bloco de código associado ao while será executado. Enquanto essa condição for verdadeira, o bloco de código dentro do while será repetidamente executado. Se a condição se tornar falsa, a execução do loop while é interrompida e o controle passa para o código após o bloco while.
+    Bloco de código: É o conjunto de instruções que será executado repetidamente enquanto a condição for verdadeira. Esse bloco de código deve estar indentado corretamente para indicar que faz parte do loop while.
+    É importante tomar cuidado ao utilizar a estrutura de repetição while, já que se a condição nunca se tornar falsa, isso resultará em um "loop infinito", onde o código continuará a ser executado indefinidamente.
+
+    Aqui está um exemplo simples de um loop while que conta até 5:
+
+# EXEMPLO WHILE:  
+    contador = 1
+
+    while contador <= 5:
+        print(contador)
+        contador += 1  # Atualiza o contador para avançar para o próximo número
+
+_______________________________
+
+### DO-WHILE
+Em Python, não existe uma estrutura de controle nativa chamada "do-while" como encontrada em algumas outras linguagens de programação, como C, C++, Java, entre outras. No entanto, é possível simular um comportamento semelhante ao "do-while" utilizando a estrutura while em conjunto com uma variável de controle.
+
+A ideia por trás de um loop "do-while" é executar um bloco de código pelo menos uma vez e, em seguida, repeti-lo enquanto a condição é verdadeira. Em Python, você pode conseguir algo semelhante dessa forma:
+
+# EXEMPLO DO-WHILE:
+
+primeira_vez = True
+
+while True:
+    # Código que deve ser executado pelo menos uma vez
+    if primeira_vez:
+        # Bloco de código que é executado na primeira iteração
+        print("Isso será executado pelo menos uma vez.")
+        primeira_vez = False
+    
+    # Condição que determina a continuação ou interrupção do loop
+    # Aqui você coloca a condição que deveria ser verificada após a primeira execução
+    # Se a condição for atendida, o loop é interrompido
+    if not condição:
+        break
+    
+    # Restante do código que é executado enquanto a condição for verdadeira
+    # ...
+
+
+## Explicação dos elementos:
+
+    Neste exemplo, a variável primeira_vez é usada para garantir que o código dentro do bloco if primeira_vez: seja executado pelo menos uma vez. Após a primeira execução desse bloco, primeira_vez é atualizado para False para evitar que o mesmo bloco seja executado novamente nas iterações subsequentes.
+
+    Depois disso, a condição que normalmente seria verificada no início do loop "do-while" é testada no final do loop while True. Se a condição for atendida, o loop continua; caso contrário, break é usado para sair do loop.
+
+    Essa é uma abordagem comum para simular um comportamento "do-while" em Python, já que não existe uma estrutura nativa dedicada para isso.
+
+
+
+_______________________________
+
+### FUNÇÃO
+    def nome_da_funcao(argumento1, argumento2, ...):
+    """Docstring da função"""
+    # Corpo da função
+    # Aqui você escreve o código que a função executará
+    # Pode conter várias linhas de código
+    # Pode incluir estruturas de controle (if, for, while, etc.)
+    # Pode realizar operações, cálculos, etc.
+    
+    # Opcionalmente, a função pode retornar um valor
+    return algum_valor
+
+## Explicação dos elementos:
+
+        def: É a palavra-chave utilizada para iniciar a definição de uma função.
+        nome_da_funcao: É o nome que você escolhe para sua função. Deve seguir as mesmas regras de nomenclatura de variáveis em Python.
+        (argumento1, argumento2, ...): São os argumentos (parâmetros) que a função pode receber. Estes são opcionais e você pode ter zero ou mais argumentos separados por vírgula. Eles são utilizados para passar informações para a função.
+        """Docstring da função""": É uma string de documentação (docstring) opcional que descreve o propósito da função. Ajuda a documentar o que a função faz.
+        Corpo da função: É onde o código real da função é escrito. Ele deve estar indentado para delimitar o bloco de código pertencente à função.
+        return algum_valor: É uma declaração opcional que permite à função retornar um valor após sua execução. Esta instrução é usada para sair da função e pode retornar um valor específico de volta para onde a função foi chamada.
+        Aqui está um exemplo simples de uma função que retorna a soma de dois números:
+
+# EXEMPLO FUNÇÃO:
+
+        def soma(a, b):
+            """Esta função retorna a soma de dois números."""
+            resultado = a + b
+            return resultado
+
+            
+_______________________________
+
