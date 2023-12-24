@@ -1,0 +1,43 @@
+
+
+    Sintaxe:
+
+    def nome_da_funcao(parametro1, parametro2, ...):
+        # Corpo da função
+        # Pode conter várias linhas de código
+        # Pode usar os parâmetros passados à função
+        
+        # Retorno opcional
+        return resultado
+
+
+- def: É a palavra-chave utilizada para definir uma função.
+
+- nome_da_funcao: É o nome que você escolhe para sua função. 
+    Siga as convenções de nomenclatura do Python (letras minúsculas com underscores para separar palavras, se necessário).
+
+- (parametro1, parametro2, ...): São os parâmetros que a função pode receber. 
+    Esses são opcionais. Você pode ter zero ou mais parâmetros.
+
+- return: Esta palavra-chave é usada para retornar um valor da função. O return é opcional. 
+    Se não houver um return explícito ou se a função não contiver um return, ela retornará None.
+
+    
+EXEMPLOS:
+
+Exemplo de função simples que soma dois números:
+    def soma(a, b):
+        resultado = a + b
+        return resultado
+
+
+Você pode chamar essa função passando os argumentos e atribuir o resultado a uma variável:
+    resultado_soma = soma(3, 5)
+    print(resultado_soma)  # Saída: 8
+
+
+Referências:
+
+BRANDÃO, Leônidas. Introdução ao uso de funções.
+    Instituto de Matemática e Estatística Universidade de São Paulo, [s/d]. 
+    Disponível em: https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_funcoes.html#:~:text=A%20ideia%20básica%20de%20uma,e%20posterior%20invocação%20à%20função. Acesso em: 04 abr. 2022.
