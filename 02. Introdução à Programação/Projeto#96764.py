@@ -1,19 +1,14 @@
 def calculadora():
     while True:
-        print("Escolha a operação:")
-        print("1: Soma")
-        print("2: Subtração")
-        print("3: Multiplicação")
-        print("4: Divisão")
-        print("0: Sair")
-
+        print("Escolha a operação:\n1: Soma\n2: Subtração\n3: Multiplicação\n4: Divisão\n0: Sair")
+        
         opcao = input("Digite o número da operação desejada: ")
 
         if opcao == '0':
             print("Saindo da calculadora.")
             break
         elif opcao not in ['1', '2', '3', '4']:
-            print("Essa opção não existe.\n")
+            print("Essa opção não existe.\nFavor digitar uma opção de 1 a 4.")
             continue
 
         valor1 = float(input("Digite o primeiro valor: "))
