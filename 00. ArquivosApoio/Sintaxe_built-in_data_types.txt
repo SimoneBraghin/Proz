@@ -1,0 +1,78 @@
+# Sintaxe das quatro built-in data types em Python: (1) Listas, (2) Tuplas, (3) Conjuntos e (4) Dicionários
+
+
+LISTAS
+    
+    Listas são indexadores e, por isso, permitem modificação dos valores e também a duplicação de valores:
+    thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+    Listas são ordenadas, logo, a ordem dos valores internos da lista não podem ser modificados
+
+    Para criar listas no Python é necessário:
+
+    1. Utilizar o símbolo [] (colchetes) para as listas
+    2. Armazenar a lista em uma VARIÁVEL
+    3. Separar itens da lista pela vírgula
+
+    EXEMPLO DE CÓDIGO:
+
+        lista_compras = ['banana','laranja','maçã']
+        print(lista_compras)
+        ['banana', 'laranja', 'maçã']
+
+________________________________________________________
+
+ARRAYS (VETORES/MATRIZES)
+
+    Array é uma variável especial que pode conter mais de um valor ao mesmo tempo.
+    Exemplo:
+            car1 = "Ford"
+            car2 = "Volvo"
+            car3 = "BMW"
+
+    O Python não tem suporte built-in para Arrays (matrizes). Mas, essas podem ser utilizadas a partir de Listas.
+    
+
+    EXEMPLO DE CÓDIGO:
+
+        cars = ["Ford", "Volvo", "BMW"]
+        x = cars[0]
+        cars[0] = "Toyota"
+
+________________________________________________________
+
+TUPLAS
+
+    Tuplas são usadas para armazenar múltiplos itens em uma única variável; 
+    é uma coleção onde a ordem dos valores é imutável;
+    são escritas com o uso do parênteses.
+
+    São ordenadas, imutáveis e permitem duplicata de valores. Ademais, são indexadas [0] a [n]
+
+    EXEMPLO DE CÓDIGO:
+        mytuple = ("apple", "banana", "cherry", "apple", "cherry")
+
+________________________________________________________
+
+CONJUNTOS
+
+    São usados para armazenar múltiplos itens em uma variável singular;
+    são desordenadas, imutáveis e não indexáveis; não permite duplicação de valores
+
+    EXEMPLO DE CÓDIGO:
+        thisset = {"apple", "banana", "cherry"}
+        print(thisset)
+________________________________________________________
+
+CONJUNTOS
+    São usadas para armazenar dados em chaveamento com valores pares (key:value pair) 
+        que podem ser utilizados pela referência(chamada) do nome da chave
+    São ordenados, mutáveis, não permitem valoers duplicados
+    
+
+    EXEMPLO DE CÓDIGO:
+        thisdict = {
+            "brand": "Ford",
+            "model": "Mustang",
+            "year": 1964
+        }
+        print(thisdict["brand"])
