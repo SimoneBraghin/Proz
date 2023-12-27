@@ -1,5 +1,11 @@
 # Exercício Regar a planta:
 """
+Este arquivo consiste nas atividades desenvolvidas durante as aulas síncronas, sendo então propostas coletivas, 
+não apenas de autoria da criadora deste repositório
+"""
+
+
+"""
 i = 0
 while i <= 5:
     print("Robôzin, por favor regue a planta de número " + str(i))

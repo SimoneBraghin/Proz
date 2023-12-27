@@ -9,15 +9,15 @@ rodarWhile = True
 
 while rodarWhile:
     nomeUsuario = input("Informe seu nome: ")
-    try: 
+    try:
         anoNascimentoUsuario = int(input("Informe o ano de seu nascimento: "))
         
-        if  anoNascimentoUsuario >= 1962 and anoNascimentoUsuario <=2022:
+        if  anoNascimentoUsuario >= 1962 or anoNascimentoUsuario <= 2022:
             idadeUsuario = 2023 - anoNascimentoUsuario
-            print(f"Olá {nomeUsuario}! \nSua idade no ano de 2023 é de {idadeUsuario} anos")
+            print(f"Olá {nomeUsuario}! \nSua idade no ano de 2023 é de {idadeUsuario} ano(s)")
             rodarWhile = False
         else:
             print("Você nasceu em um ano fora do intervalo permitido.")
-            
+        
     except ValueError:
         print("O ano informado está com a formatação incorreta.")
