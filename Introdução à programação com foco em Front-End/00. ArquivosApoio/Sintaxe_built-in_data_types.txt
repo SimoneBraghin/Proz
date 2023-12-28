@@ -1,5 +1,5 @@
-# Sintaxe das quatro built-in data types em Python: (1) Listas, (2) Tuplas, (3) Conjuntos e (4) Dicionários
 
+# Sintaxe das quatro built-in data types em Python: (1) Listas, (2) Tuplas, (3) Conjuntos e (4) Dicionários
 
 LISTAS
     
@@ -18,7 +18,6 @@ LISTAS
         lista_compras = ['banana','laranja','maçã']
         print(lista_compras)
         ['banana', 'laranja', 'maçã']
-
 ________________________________________________________
 
 ARRAYS (VETORES/MATRIZES)
@@ -31,13 +30,17 @@ ARRAYS (VETORES/MATRIZES)
 
     O Python não tem suporte built-in para Arrays (matrizes). Mas, essas podem ser utilizadas a partir de Listas.
     
-
     EXEMPLO DE CÓDIGO:
 
         cars = ["Ford", "Volvo", "BMW"]
         x = cars[0]
         cars[0] = "Toyota"
 
+    Podemos ter um array de arrays:
+        array_arrays = [[1,2,3], ['a', 'b', 'c']]
+
+    É possível criar arrays mistos:
+        array_misto = [10, "dez", True]
 ________________________________________________________
 
 TUPLAS
@@ -50,7 +53,6 @@ TUPLAS
 
     EXEMPLO DE CÓDIGO:
         mytuple = ("apple", "banana", "cherry", "apple", "cherry")
-
 ________________________________________________________
 
 CONJUNTOS
@@ -63,7 +65,7 @@ CONJUNTOS
         print(thisset)
 ________________________________________________________
 
-CONJUNTOS
+DICIONÁRIOS 
     São usadas para armazenar dados em chaveamento com valores pares (key:value pair) 
         que podem ser utilizados pela referência(chamada) do nome da chave
     São ordenados, mutáveis, não permitem valoers duplicados
@@ -76,3 +78,18 @@ CONJUNTOS
             "year": 1964
         }
         print(thisdict["brand"])
+
+________________________________________________________
+Referências:
+
+- Official documentation for Python 3.10.8. 
+Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
+
+- KITAMURA, Celso. O Que É Array Em Python? 
+Disponível em: https://www.youtube.com/watch?v=1QlG_XiED0g. Acesso em 12 de out. 2022
+
+- SHERRILL, Derrick. Python Algorithm Series. 
+Disponível em: https://www.youtube.com/playlist?list=PLc_Ps3DdrcTsizjAG5uMhpoDfhDmxpOzv. Acesso em 12 de out. 2022
+
+- FelixTechTips. Merge Sort In Python Explained (With Example And Code). 
+Disponível em: https://www.youtube.com/watch?v=cVZMah9kEjI. Acesso em 12 de out. 2022

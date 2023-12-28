@@ -36,6 +36,7 @@ Você pode chamar essa função passando os argumentos e atribuir o resultado a 
     print(resultado_soma)  # Saída: 8
 
 
+________________________________________________________
 Referências:
 
 BRANDÃO, Leônidas. Introdução ao uso de funções.

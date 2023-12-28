@@ -1,40 +1,37 @@
+
 Em Python, o tratamento de erros e exceções é feito usando blocos try, except, else e finally. 
 
 ### Try & Except:
    
-try:
-    # Código onde uma exceção pode ocorrer
-    # Se ocorrer uma exceção, o fluxo do programa será desviado para o bloco except
-    # Se nenhuma exceção ocorrer, o bloco except será ignorado
-except ExcecaoTipo as nome_da_excecao:
-    # Código para lidar com a exceção do tipo ExcecaoTipo
-    # O código dentro deste bloco será executado se ocorrer uma exceção do tipo ExcecaoTipo
-
+    try:
+        # Código onde uma exceção pode ocorrer
+        # Se ocorrer uma exceção, o fluxo do programa será desviado para o bloco except
+        # Se nenhuma exceção ocorrer, o bloco except será ignorado
+    except ExcecaoTipo as nome_da_excecao:
+        # Código para lidar com a exceção do tipo ExcecaoTipo
+        # O código dentro deste bloco será executado se ocorrer uma exceção do tipo ExcecaoTipo
 
 
 ### Try, Except & Else:
 
-try:
-    # Código onde uma exceção pode ocorrer
-except ExcecaoTipo as nome_da_excecao:
-    # Código para lidar com a exceção do tipo ExcecaoTipo
-else:
-    # Código a ser executado se NENHUMA exceção for lançada no bloco try
-
+    try:
+        # Código onde uma exceção pode ocorrer
+    except ExcecaoTipo as nome_da_excecao:
+        # Código para lidar com a exceção do tipo ExcecaoTipo
+    else:
+        # Código a ser executado se NENHUMA exceção for lançada no bloco try
 
 
 ### Try, Except & Finally:
 
-try:
-    # Código onde uma exceção pode ocorrer
-except ExcecaoTipo as nome_da_excecao:
-    # Código para lidar com a exceção do tipo ExcecaoTipo
-finally:
-    # Código que será executado sempre, independente de ter ocorrido exceção ou não
-
+    try:
+        # Código onde uma exceção pode ocorrer
+    except ExcecaoTipo as nome_da_excecao:
+        # Código para lidar com a exceção do tipo ExcecaoTipo
+    finally:
+        # Código que será executado sempre, independente de ter ocorrido exceção ou não
 
 ___________________________________
-
 Referências:
 
 GATTO, Elaine. Tratamento de erros. 52 slides. Universidade Sagrado Coração, 19 nov. 2013. 
