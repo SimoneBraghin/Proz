@@ -5,7 +5,7 @@ Este repositório consiste em um conjunto de projetos desenvolvidos durante a fo
 
 O Talento Cloud Pro é um programa criado pela AWS para capacitar pessoas formadas em escola pública para trabalhar em uma das tecnologias que mais crescem no mundo: computação em nuvem.
 
- A formação foi dividida em 2 trilhas:
+ **A formação foi dividida em 2 trilhas:**
 
 1. Introdução à programação com foco em Front-End;
 2. Cloud Practitioner.
@@ -30,7 +30,8 @@ A carga horária do curso prevista é de 300 horas, com duração de 4 meses. Di
 
 Cada Projeto corresponde a atividade proposta no curso e na forma como a autora do repositório desenvolveu os códigos para cumprir com os requisitos do mesmo.
 
-### 00. Arquivos Apoio
+### Introdução à programação com foco em Front-End
+#### 00. Arquivos Apoio
 
 *Consiste em um conjunto de arquivos de texto e imagéticos que possuem a função de auxílio e apoio geral para a compreensão dos processos pedagógicos de maneira mais assertiva:*
 
@@ -41,8 +42,8 @@ Cada Projeto corresponde a atividade proposta no curso e na forma como a autora 
 - Sintaxes (diversas)
 - *Entre outros...*
 
-### 01. Lógica Imperativa
-#### Tópicos:
+#### 01. Lógica Imperativa
+##### Tópicos:
 - Compreender o que é lógica
 - O que está por trás da condução do pensamento ordenado
 - O raciocínio lógico e a conexão com algoritmos
@@ -54,8 +55,8 @@ Cada Projeto corresponde a atividade proposta no curso e na forma como a autora 
 - Estrutura de repetição
 
 
-### 02. Introdução à Programação
-#### Tópicos:
+#### 02. Introdução à Programação
+##### Tópicos:
 - Programação de sistemas
 - Algoritmo estruturado e não-estruturado
 - Ambiente de desenvolvimento
@@ -68,14 +69,65 @@ Cada Projeto corresponde a atividade proposta no curso e na forma como a autora 
 - Tipos artificiais de dados
 - Acesso a tabelas e listas de arquivos de dados
 
-### 03. Preparação para HTML e CSS
-#### Tópicos:
+#### 03. Preparação para HTML e CSS
+##### Tópicos:
 - Arrays
 - VSCode: instalação, configuração inicial e abertura de projetos
 - Git
 - GitHub
 
-# (em construção...)
-### HTML/CSS
-### Tópicos:
--
+#### HTML/CSS
+##### Tópicos:
+- O que é HTML
+- Principais tags: teoria e prática
+- Corpo de uma página
+- O que é CSS e sua aplicabilidade
+- Propriedade do CSS
+- Importação e manipulação de fontes
+
+#### JavaScript I
+##### Tópicos:
+- História do JS
+- Ambientes de desenvolvimento
+- Variáveis em JS
+- Operadores em JS
+- Estruturas condicionais em JS
+- Loops em JS
+- Funções em JS
+- Conexão com HTML
+- Seletores DOM
+- InnerText e InnerHTML
+- Criando elementos no DOM
+
+#### JavaScript II
+##### Tópicos:
+- Adicionar estilos com a propriedade .style
+- Manipular classes com propriedade .classList
+- Função .addEventListener()
+- Eventos de mouse
+- Capturar informações do evento
+- Eventos de teclado
+- Funções preventDefault() e alert()
+- Eventos onFocus, onBluer, onChange e onSubmit
+
+#### Banco de Dados I
+##### Tópicos:
+- Conceitos de BD
+- Modelagem de banco de dados relacionais (SQL)
+- SGBD
+- Linguagem SQL
+- Implementação de um banco de dados em SQL
+
+#### Banco de Dados II
+##### Tópicos:
+- Junção entre tabelas
+- Chaves primárias e estrangeiras
+- Trigger
+- Function e Procedure
+- Integridade, confiabilidade e disponibilidade
+- Relação do backup com banco de dados e senhas fortes
+- Criptografia
+
+
+### Cloud Practitioner
+*(Ainda sem acesso a este curso)*
