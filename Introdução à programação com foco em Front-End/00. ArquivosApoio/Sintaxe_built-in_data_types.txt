@@ -1,6 +1,6 @@
 
 # Sintaxe das quatro built-in data types em Python: (1) Listas, (2) Tuplas, (3) Conjuntos e (4) Dicionários
-
+________________________________________________________
 LISTAS
     
     Listas são indexadores e, por isso, permitem modificação dos valores e também a duplicação de valores:
@@ -19,7 +19,6 @@ LISTAS
         print(lista_compras)
         ['banana', 'laranja', 'maçã']
 ________________________________________________________
-
 ARRAYS (VETORES/MATRIZES)
 
     Array é uma variável especial que pode conter mais de um valor ao mesmo tempo.
@@ -42,7 +41,6 @@ ARRAYS (VETORES/MATRIZES)
     É possível criar arrays mistos:
         array_misto = [10, "dez", True]
 ________________________________________________________
-
 TUPLAS
 
     Tuplas são usadas para armazenar múltiplos itens em uma única variável; 
@@ -54,7 +52,6 @@ TUPLAS
     EXEMPLO DE CÓDIGO:
         mytuple = ("apple", "banana", "cherry", "apple", "cherry")
 ________________________________________________________
-
 CONJUNTOS
 
     São usados para armazenar múltiplos itens em uma variável singular;
@@ -64,7 +61,6 @@ CONJUNTOS
         thisset = {"apple", "banana", "cherry"}
         print(thisset)
 ________________________________________________________
-
 DICIONÁRIOS 
     São usadas para armazenar dados em chaveamento com valores pares (key:value pair) 
         que podem ser utilizados pela referência(chamada) do nome da chave
@@ -82,14 +78,14 @@ DICIONÁRIOS
 ________________________________________________________
 Referências:
 
-- Official documentation for Python 3.10.8. 
-Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
+    - Official documentation for Python 3.10.8. 
+        Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
 
-- KITAMURA, Celso. O Que É Array Em Python? 
-Disponível em: https://www.youtube.com/watch?v=1QlG_XiED0g. Acesso em 12 de out. 2022
+    - KITAMURA, Celso. O Que É Array Em Python? 
+        Disponível em: https://www.youtube.com/watch?v=1QlG_XiED0g. Acesso em 12 de out. 2022
 
-- SHERRILL, Derrick. Python Algorithm Series. 
-Disponível em: https://www.youtube.com/playlist?list=PLc_Ps3DdrcTsizjAG5uMhpoDfhDmxpOzv. Acesso em 12 de out. 2022
+    - SHERRILL, Derrick. Python Algorithm Series. 
+        Disponível em: https://www.youtube.com/playlist?list=PLc_Ps3DdrcTsizjAG5uMhpoDfhDmxpOzv. Acesso em 12 de out. 2022
 
-- FelixTechTips. Merge Sort In Python Explained (With Example And Code). 
-Disponível em: https://www.youtube.com/watch?v=cVZMah9kEjI. Acesso em 12 de out. 2022
+    - FelixTechTips. Merge Sort In Python Explained (With Example And Code). 
+        Disponível em: https://www.youtube.com/watch?v=cVZMah9kEjI. Acesso em 12 de out. 2022

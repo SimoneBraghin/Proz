@@ -8,7 +8,8 @@
     Lembre-se de usar nomes descritivos para nomear cada variável, 
     e de usar o tipo de dado apropriado para cada lista (strings, booleanos, números inteiros, floats)."""
 
-produtosBebidas = ['espresso', 'espresso correto', 'espresso romano', 'cappuccino', 'latte', 'iced coffee', 'machiatto', 'afogatto', 'chocolatto']
+produtosBebidas = ['espresso', 'espresso correto', 'espresso romano', 'cappuccino', 'latte',
+                   'iced coffee', 'machiatto', 'afogatto', 'chocolatto']
 anoNascimentoAmicus = [1989, 1965, 1999, 2010, 1985]
 
 print(produtosBebidas, anoNascimentoAmicus)
