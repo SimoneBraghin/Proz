@@ -24,9 +24,9 @@ Nelas estão inclusas o ensino prático e teórico em diversos aspectos de progr
 - Cloud Computing;
 - *Entre outros...*
 
-A carga horária do curso prevista é de 300 horas, com duração de 4 meses. Dividiu-se o tempo em um bloco de auls síncronas e assíncronas.
+A carga horária do curso prevista é de 300 horas, com duração de 4 meses. Dividiu-se o tempo em um bloco de aulas síncronas e assíncronas.
 
-*Abaixo apresentamos os tópicos de cada seção do curso, subdividos nas pastas numeradas de "00." a 08". Com exeção da pasta de número "00." - que é uma pasta de apoio ao processo educativo pessoal da autora do repositório -, estão contidos nas pastas deste repositório os arquivos referentes aos projetos de desenvolvimento, i. e., as atividades desenvolvidas em cada bloco de aulas do curso pela autora do repositório.
+*Abaixo apresentamos os tópicos de cada seção do curso, subdividos nas pastas numeradas por curso iniciando-se em pasta "00" - sendo esta uma pasta de apoio ao processo educativo pessoal da autora do repositório. Nas demais pastas estão contidos os arquivos referentes aos projetos de desenvolvimento, i. e., as atividades desenvolvidas em cada bloco de aulas do curso pela autora do repositório.
 
 Cada Projeto corresponde a atividade proposta no curso e na forma como a autora do repositório desenvolveu os códigos para cumprir com os requisitos do mesmo.
 

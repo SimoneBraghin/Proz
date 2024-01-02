@@ -18,6 +18,56 @@ LISTAS
         lista_compras = ['banana','laranja','maçã']
         print(lista_compras)
         ['banana', 'laranja', 'maçã']
+
+    # Alterando Listas:
+        
+        # Acessando os índices:
+            lista_frutas = ['maçã', 'banana', 'pera']
+            print(lista_frutas)
+            # Imprimirá: ['maçã', 'banana', 'pera']
+
+            lista_frutas[0] = 'melancia'
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'banana', 'pera']
+            
+        # Alterando dados usando índices:
+            # exemplo 1
+            lista_frutas = ['melancia', 'banana', 'pera']
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'banana', 'pera']
+
+            lista_frutas[1], lista_frutas[2] = 'morango', 'abacaxi'
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+            # exemplo 2
+            lista_frutas = ['melancia', 'morango', 'abacaxi']
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+            lista_frutas[1] = lista_frutas[0]
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'melancia', 'abacaxi']
+
+        # Adicionar e remover elementos da lista:
+
+            # Adicionando:
+            lista_frutas = ['melancia', 'morango', 'abacaxi']
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+            lista_frutas.append('kiwi')
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi', 'kiwi']
+
+            # Removendo:
+            lista_frutas = ['melancia', 'morango', 'abacaxi', 'kiwi']
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi', 'kiwi']
+
+            lista_frutas.pop()
+            print(lista_frutas)
+            # Imprimirá: ['melancia', 'morango', 'abacaxi']
 ________________________________________________________
 ARRAYS (VETORES/MATRIZES)
 
@@ -118,6 +168,18 @@ DICIONÁRIOS
 
 ________________________________________________________
 Referências:
+
+    - Official documentation for Python 3.10.8. 
+        Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
+
+    - KITAMURA, Celso. O Que É Array Em Python? 
+        Disponível em: https://www.youtube.com/watch?v=1QlG_XiED0g. Acesso em 12 de out. 2022
+
+    - SHERRILL, Derrick. Python Algorithm Series. 
+        Disponível em: https://www.youtube.com/playlist?list=PLc_Ps3DdrcTsizjAG5uMhpoDfhDmxpOzv. Acesso em 12 de out. 2022
+
+    - FelixTechTips. Merge Sort In Python Explained (With Example And Code). 
+        Disponível em: https://www.youtube.com/watch?v=cVZMah9kEjI. Acesso em 12 de out. 2022
 
     - Official documentation for Python 3.10.8. 
         Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
