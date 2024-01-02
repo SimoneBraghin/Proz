@@ -40,6 +40,47 @@ ARRAYS (VETORES/MATRIZES)
 
     É possível criar arrays mistos:
         array_misto = [10, "dez", True]
+
+    
+    PERCORRER ARRAYS:
+        
+        lista_frutas = ['maçã', 'banana', 'pera']
+
+         for i in range(3):
+            print(lista_frutas[i])
+
+        # Imprimirá:
+        # maçã
+        # banana
+        # pera
+             A função range pode receber até três argumentos que representam: 
+             o valor inicial do contador, 
+             a condição de parada, 
+             o incremento do contador. 
+             Se, ao invés de passarmos os três valores, passarmos apenas um valor como argumento, 
+             ele representará a condição de parada. 
+             No exemplo acima, a condição de parada é 3, em outras palavras, que o contador seja menor que 3 (i < 3).
+             Como não passamos mais argumentos, a função range() atribui um valor
+             padrão para o valor inicial e o incremento do contador. Estes valores por padrão são 0 e +1, respectivamente.
+            
+            Dessa forma, ao usar a função range(3) os elementos para nossa estrutura de repetição ficam assim:
+
+            - Valor inicial do contador = 0
+            - Condição de parada = contador < 3
+            - Incremento do contador = 1
+
+            Na primeira volta do loop, o contador (representado pela variável ‘i’) tem valor 0. 
+            Por esse motivo, se imprimirmos lista_frutas[i] estamos dizendo na verdade lista_frutas[0] 
+            e o valor impresso é ‘maçã’. Ainda nessa volta, aplicamos o incremento, que neste caso é 1, 
+            por tanto o contador tem agora o valor 1.
+
+        
+        Quando não sabemos o tamanho da lista e não temos como contá-la por ser muito extensa, podemos usar o len():
+
+        lista_num = [2, 45, 65, 78, 126, 987, 457, 345, 679, 107, 2345, 452, 3, 34, 560]
+        
+        for i in range(len(lista_num)):
+            print(lista_num[i])
 ________________________________________________________
 TUPLAS
 
@@ -77,6 +118,18 @@ DICIONÁRIOS
 
 ________________________________________________________
 Referências:
+
+    - Official documentation for Python 3.10.8. 
+        Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
+
+    - KITAMURA, Celso. O Que É Array Em Python? 
+        Disponível em: https://www.youtube.com/watch?v=1QlG_XiED0g. Acesso em 12 de out. 2022
+
+    - SHERRILL, Derrick. Python Algorithm Series. 
+        Disponível em: https://www.youtube.com/playlist?list=PLc_Ps3DdrcTsizjAG5uMhpoDfhDmxpOzv. Acesso em 12 de out. 2022
+
+    - FelixTechTips. Merge Sort In Python Explained (With Example And Code). 
+        Disponível em: https://www.youtube.com/watch?v=cVZMah9kEjI. Acesso em 12 de out. 2022
 
     - Official documentation for Python 3.10.8. 
         Disponível em: https://docs.python.org/pt-br/3.7/library/array.html. Acesso em: 12 de out. 2022
