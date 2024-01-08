@@ -62,4 +62,13 @@ while (numeroCorreto == False):
        print("Caracter inválido, por favor digite um número par")
 """
 
-#
+# 08/01
+
+# Escreva uma função que verifica se array contém dado elemento
+
+def verificarElemento(array, elemento):
+    return elemento in array
+
+elemento_existe = verificarElemento([1,2,3,4,5,6], "hello")
+print(elemento_existe)
+
